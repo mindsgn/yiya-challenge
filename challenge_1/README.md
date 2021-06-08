@@ -1,15 +1,15 @@
 # Challenge 1
 
-## A Node.js program. that fetch's movies from the OMDB API
+## program to fetch's movies from the OMDB API without using any without any third-party library
 
-1. getting started
-
-```
-    npm start
-```
-
-or 
+### run interactive program
 
 ```
-    yarn start
+    node server.js
+```
+
+### run with tags
+
+```
+    node server.js --title --ID --type --year --plot
 ```
