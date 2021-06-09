@@ -14,15 +14,14 @@
     cd yiya-challenge
 ```
 
-
-## Issues
-
-1. if you get Task :react-native-firebase:compileReleaseJavaWithJavac FAILED
+2. run program to get movie API
 
 ```
-    yarn add jetifier     
+    node server.js
 ```
 
+3. run program to test files
+
 ```
-    npx jetifier     
+    node test.js
 ```
