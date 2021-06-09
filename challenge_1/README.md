@@ -2,14 +2,14 @@
 
 ## program to fetch's movies from the OMDB API without using any without any third-party library
 
-### run interactive program
+### run program
 
 ```
     node server.js
 ```
 
-### run with tags
+### to exit type the following
 
 ```
-    node server.js --title --ID --type --year --plot
+    exit();
 ```
