@@ -22,7 +22,6 @@ const crawlFolder = () => {
       } catch(error) {
         console.log(error)
     }
-    console.log("================================================================================")
 }
 
 //read file
