@@ -1,26 +1,28 @@
 # Yiya Challenge
 
-## program to fetch's movies from the OMDB API without using any without any third-party library
+## Getting Started
 
-## run program server.js
-
-### program to fetch's movies from the OMDB API without using any without any third-party library
+1. git clone 
 
 ```
-    node server.js
+    git clone https://github.com/mindsgn/yiya-challenge
 ```
 
-### to exit type the following
+2. change to directory
 
 ```
-    exit();
+    cd yiya-challenge
 ```
 
-## program to fetch's movies from the OMDB API without using any without any third-party library
 
-### run program test.js
+## Issues
+
+1. if you get Task :react-native-firebase:compileReleaseJavaWithJavac FAILED
 
 ```
-    node test.js
+    yarn add jetifier     
 ```
 
+```
+    npx jetifier     
+```
