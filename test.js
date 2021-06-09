@@ -7,6 +7,10 @@ let errors = 0;
 
 const crawlFolder = () => {
     try {
+        console.clear();
+        console.log("================================================================================")
+        console.log("Testing Files");
+        console.log("================================================================================")
         const files = fs.readdirSync(folder)
         for(let file of files) {
             let filename = null; 
@@ -18,6 +22,7 @@ const crawlFolder = () => {
       } catch(error) {
         console.log(error)
     }
+    console.log("================================================================================")
 }
 
 //read file
